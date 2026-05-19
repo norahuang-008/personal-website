@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>个人网站 | AI成长与业务服务</title>
+    <meta
+      name="description"
+      content="一个专业、清爽、亲和的个人单页网站，展示个人介绍、业务服务、AI成长日记和联系方式。"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="返回首页">
+        <span class="brand-mark">AI</span>
+        <span>你的名字</span>
+      </a>
+      <nav class="nav" aria-label="主导航">
+        <a href="#about">关于我</a>
+        <a href="#services">我的业务</a>
+        <a href="#diary">AI成长日记</a>
+        <a href="#contact">联系方式</a>
+      </nav>
+      <a class="nav-button" href="#contact">联系我</a>
+    </header>
+
+    <main>
+      <section class="hero section" id="home">
+        <div class="hero-content fade-in">
+          <p class="eyebrow">个人品牌 · AI实践 · 持续成长</p>
+          <h1>你好，我是正在用 AI 提升工作与生活效率的实践者。</h1>
+          <p class="hero-text">
+            这里记录我的成长、业务能力和真实思考。我希望用专业、清爽、容易理解的方式，
+            帮助更多人认识 AI、使用 AI，并把它变成可落地的价值。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#services">了解我的业务</a>
+            <a class="button secondary" href="#diary">查看成长日记</a>
+          </div>
+        </div>
+        <div class="hero-card fade-in delay-1" aria-label="个人关键词">
+          <div class="profile-photo">成长中</div>
+          <div>
+            <p class="card-label">当前关注</p>
+            <h2>AI工具、内容创作、个人效率</h2>
+          </div>
+          <ul class="hero-list">
+            <li>把复杂工具讲清楚</li>
+            <li>把想法变成作品</li>
+            <li>把成长过程记录下来</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section split" id="about">
+        <div class="section-heading fade-in">
+          <p class="eyebrow">About Me</p>
+          <h2>关于我</h2>
+        </div>
+        <div class="content-card fade-in delay-1">
+          <p>
+            我是一个持续学习 AI 的个人创作者 / 服务者。相比追逐复杂概念，
+            我更关注“普通人如何真正用起来”：从写作、资料整理、工作流优化，
+            到个人网站、内容表达和业务展示。
+          </p>
+          <p>
+            这个网站会随着我一起成长。你可以把它当作我的线上名片，
+            也可以把它当作我记录 AI 学习路线、实践经验和阶段成果的小空间。
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="services">
+        <div class="section-heading centered fade-in">
+          <p class="eyebrow">Services</p>
+          <h2>我的业务</h2>
+          <p>适合个人品牌、轻咨询、内容服务和 AI 入门陪跑。</p>
+        </div>
+        <div class="cards-grid">
+          <article class="service-card fade-in">
+            <span class="icon-dot blue"></span>
+            <h3>AI工具入门指导</h3>
+            <p>帮助新手理解常用 AI 工具，建立清晰的使用场景和基本工作流。</p>
+          </article>
+          <article class="service-card fade-in delay-1">
+            <span class="icon-dot purple"></span>
+            <h3>个人网站与展示页</h3>
+            <p>为个人、自由职业者或小团队搭建清爽易维护的线上展示页面。</p>
+          </article>
+          <article class="service-card fade-in delay-2">
+            <span class="icon-dot gray"></span>
+            <h3>内容整理与表达优化</h3>
+            <p>把零散想法整理成文章、介绍页、课程大纲或适合传播的内容结构。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section diary-section" id="diary">
+        <div class="section-heading fade-in">
+          <p class="eyebrow">AI Growth Journal</p>
+          <h2>AI成长日记</h2>
+          <p>记录每一次从“不会”到“会一点”的过程。</p>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item fade-in">
+            <time datetime="2026-05">2026.05</time>
+            <h3>搭建第一个个人网站</h3>
+            <p>学习如何把个人介绍、业务服务和联系方式放到一个清晰的页面里。</p>
+          </article>
+          <article class="timeline-item fade-in delay-1">
+            <time datetime="2026-06">下一步</time>
+            <h3>整理 AI 工具清单</h3>
+            <p>把常用工具按写作、图片、办公、学习等场景分类，方便自己和他人查看。</p>
+          </article>
+          <article class="timeline-item fade-in delay-2">
+            <time datetime="2026-07">持续更新</time>
+            <h3>发布实践案例</h3>
+            <p>记录真实项目和复盘，让成长不只停留在想法里。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="contact-card fade-in">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>联系方式</h2>
+            <p>
+              如果你想了解 AI 入门、个人网站搭建、内容整理或其他合作，
+              可以通过下面的方式联系我。
+            </p>
+          </div>
+          <div class="contact-list">
+            <a href="mailto:hello@example.com">hello@example.com</a>
+            <a href="tel:+8613800000000">+86 138 0000 0000</a>
+            <a href="#" aria-label="微信号">微信：your-wechat-id</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 你的名字. Built with curiosity and care.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
