@@ -325,7 +325,16 @@ h3 {
 .timeline-item {
   padding: 24px;
 }
+.growth-list {
+  padding-left: 20px;
+  margin-top: 15px;
+}
 
+.growth-list li {
+  margin-bottom: 12px;
+  line-height: 1.8;
+  color: #333;
+}
 .timeline-item time {
   display: inline-flex;
   margin-bottom: 10px;
